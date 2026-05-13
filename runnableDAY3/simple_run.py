@@ -19,3 +19,4 @@ while True:
     text = input("You: Enter your question ") 
     result = chain.invoke({"question": text})
     print("AI :",result)
+print("End of conversation.")
